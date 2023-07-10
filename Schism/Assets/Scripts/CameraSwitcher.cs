@@ -11,7 +11,7 @@ public class CameraSwitcher : MonoBehaviour
     void OnDestroy()
     {
         // Get the player objects in the scene
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Players");
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
 
         // Check if there are any player objects
         if (players.Length > 0)

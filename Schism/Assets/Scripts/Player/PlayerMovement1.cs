@@ -159,6 +159,8 @@ public class PlayerMovement1 : MonoBehaviour
             _canDash = true;
         }
 
+        
+
         //Update player animations and flip the player sprite.
         UpdateAnimationState();
         Flip();

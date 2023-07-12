@@ -48,6 +48,15 @@ TagManager:
   - name: Background
     uniqueID: 1735351747
     locked: 0
+  - name: Details
+    uniqueID: 4070859193
+    locked: 0
+  - name: Shrubs
+    uniqueID: 3799674865
+    locked: 0
+  - name: Plants
+    uniqueID: 2176266781
+    locked: 0
   - name: Terrain
     uniqueID: 3046650223
     locked: 0

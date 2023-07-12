@@ -103,22 +103,7 @@ public class PlayerMovement1 : MonoBehaviour
         {
             _attack = false;
         }
-
-        // Footstep sound effects.
-        if (_rb.velocity.x > 0f && IsGrounded())
-        {
-            Source1.enabled = true;
-        }
-
-        else if (_rb.velocity.x < 0 && IsGrounded())
-        {
-            Source1.enabled = true;
-        }
-
-        else
-        {
-            Source1.enabled = false;
-        }
+    
 
         // Walking dust effects.
         if(Input.GetAxisRaw("Horizontal") != 0 && IsGrounded())

@@ -60,12 +60,12 @@ TagManager:
   - name: Terrain
     uniqueID: 3046650223
     locked: 0
+  - name: Leaves
+    uniqueID: 339734779
+    locked: 0
   - name: Player
     uniqueID: 2458773959
     locked: 0
   - name: Grass
     uniqueID: 1218812075
-    locked: 0
-  - name: Leaves
-    uniqueID: 339734779
     locked: 0

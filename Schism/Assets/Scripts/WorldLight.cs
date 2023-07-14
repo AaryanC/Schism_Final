@@ -27,7 +27,8 @@ public class WorldLight : MonoBehaviour
         var percentage = Mathf.Sin(timeElapsed/duration * Mathf.PI*2) * 0.5f + 0.5f;
         percentage = Mathf.Clamp01(percentage);
 
-        _light.color = gradient.Evaluate(percentage);        
+        _light.color = gradient.Evaluate(percentage);    
+        _light.intensity = 0.95f + _light.color.b/4f;
     }
 }
 

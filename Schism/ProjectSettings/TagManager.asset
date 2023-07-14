@@ -48,6 +48,9 @@ TagManager:
   - name: Background
     uniqueID: 1735351747
     locked: 0
+  - name: Leaves
+    uniqueID: 339734779
+    locked: 0
   - name: Details
     uniqueID: 4070859193
     locked: 0
@@ -59,9 +62,6 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 3046650223
-    locked: 0
-  - name: Leaves
-    uniqueID: 339734779
     locked: 0
   - name: Player
     uniqueID: 2458773959

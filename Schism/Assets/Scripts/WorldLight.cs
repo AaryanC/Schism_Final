@@ -21,7 +21,7 @@ public class WorldLight : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         var timeElapsed = Time.time - _startTime;
         var percentage = Mathf.Sin(timeElapsed/duration * Mathf.PI*2) * 0.5f + 0.5f;
